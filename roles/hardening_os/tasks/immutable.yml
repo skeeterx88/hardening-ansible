@@ -1,0 +1,6 @@
+- name: Add immutable
+  file:
+    path: '{{ item }}'
+    attributes: '+i'
+  with_flattened:
+    - '{{ os_security_immutable_blacklist }}'
