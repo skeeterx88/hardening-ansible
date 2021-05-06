@@ -1,4 +1,4 @@
-# Hardening - CPS
+# Hardening - Ansible
 
 ## Executando o playbook
 Exemplo de Inventory
